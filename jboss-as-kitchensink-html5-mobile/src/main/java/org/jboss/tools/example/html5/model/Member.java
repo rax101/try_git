@@ -77,7 +77,7 @@ public class Member implements Serializable {
     }
 
     public String getEmail() {
-        return "nobody@nobody";
+        return email;
     }
 
     public void setEmail(String email) {
